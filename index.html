@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sardauna Tech Solutions - Your Partner in Digital Innovation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/heroicons/2.1.3/24/outline/heroicons.min.css" rel="stylesheet">
+    <style>
+        .sticky {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 50;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- =========== HEADER =========== -->
+    <header id="header" class="bg-white shadow-md transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-900">Sardauna Tech</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="text-gray-600 hover:text-indigo-600">Home</a>
+                <a href="#services" class="text-gray-600 hover:text-indigo-600">Services</a>
+                <a href="#portfolio" class="text-gray-600 hover:text-indigo-600">Portfolio</a>
+                <a href="#team" class="text-gray-600 hover:text-indigo-600">Team</a>
+                <a href="#contact" class="text-gray-600 hover:text-indigo-600">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-600 hover:text-indigo-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#home" class="block py-2 px-4 text-sm text-gray-600 hover:bg-indigo-50">Home</a>
+            <a href="#services" class="block py-2 px-4 text-sm text-gray-600 hover:bg-indigo-50">Services</a>
+            <a href="#portfolio" class="block py-2 px-4 text-sm text-gray-600 hover:bg-indigo-50">Portfolio</a>
+            <a href="#team" class="block py-2 px-4 text-sm text-gray-600 hover:bg-indigo-50">Team</a>
+            <a href="#contact" class="block py-2 px-4 text-sm text-gray-600 hover:bg-indigo-50">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- =========== HERO SECTION =========== -->
+        <section id="home" class="relative bg-cover bg-center h-screen" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1500&q=80');">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="container mx-auto px-6 h-full flex flex-col justify-center items-center text-center text-white relative">
+                <h1 class="text-5xl md:text-7xl font-bold mb-4">Innovate. Integrate. Inspire.</h1>
+                <p class="text-lg md:text-xl max-w-3xl mb-8">We are a leading tech company specializing in web development, AI integration, cloud solutions, and more. Let us help transform your business with cutting-edge technology.
+
+</p>
+                <div>
+                    <a href="#services" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg mr-4">Get Started</a>
+     
+     
+     
+     
+                    <a href="#contact" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 px-6 rounded-lg">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== ABOUT US SECTION =========== -->
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900">About Sardauna Tech</h2>
+                    <p class="text-gray-600 mt-2">Pioneering the Future of Technology</p>
+                </div>
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-8 md:mb-0">
+                        <img src="watermark.png" alt="About Us" class="rounded-lg shadow-lg">
+                    </div>
+                    <div class="md:w-1/2 md:pl-12">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Who We Are</h3>
+                        <p class="text-gray-600 mb-6">Sardauna Tech Solutions is a forward-thinking technology company dedicated to providing innovative solutions that drive business success. Our team of experts is passionate about leveraging technology to solve complex challenges and create new opportunities.</p>
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Our Mission & Vision</h3>
+                        <p class="text-gray-600">Our mission is to empower businesses with transformative technology. We envision a future where technology and human ingenuity combine to create a more efficient, connected, and sustainable world.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== SERVICES SECTION =========== -->
+        <section id="services" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900">Our Services</h2>
+                    <p class="text-gray-600 mt-2">Tailored solutions for your business needs.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                        <svg class="w-12 h-12 mx-auto text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                        <h3 class="text-xl font-bold mt-4">Web Development</h3>
+                        <p class="text-gray-600 mt-2">Creating responsive and dynamic websites tailored to your business needs.</p>
+                    </div>
+                     <!-- Service Card -->
+                     <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                        <svg class="w-12 h-12 mx-auto text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                        <h3 class="text-xl font-bold mt-4">Mobile Apps</h3>
+                        <p class="text-gray-600 mt-2">Building intuitive and high-performance mobile applications for iOS and Android.</p>
+                    </div>
+                    <!-- Service Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                        <svg class="w-12 h-12 mx-auto text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M12 6V3m0 18v-3"></path></svg>
+                        <h3 class="text-xl font-bold mt-4">AI Integration</h3>
+                        <p class="text-gray-600 mt-2">Leveraging artificial intelligence to automate processes and gain insights.</p>
+                    </div>
+                    <!-- Service Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                        <svg class="w-12 h-12 mx-auto text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                        <h3 class="text-xl font-bold mt-4">Cybersecurity</h3>
+                        <p class="text-gray-600 mt-2">Protecting your digital assets with robust security solutions.</p>
+                    </div>
+                    <!-- Service Card -->
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                        <svg class="w-12 h-12 mx-auto text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2a7 7 0 017 7c0 3.87-3.13 7-7 7s-7-3.13-7-7a7 7 0 017-7zm0 14v4m0 0h4m-4 0H8"/></svg>
+                        <h3 class="text-xl font-bold mt-4">IT Consulting</h3>
+                        <p class="text-gray-600 mt-2">Expert advice and strategic planning to help your business leverage technology for growth and efficiency.</p>
+                    </div>
+                     <!-- Service Card -->
+                     <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                        <svg class="w-12 h-12 mx-auto text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2a2 2 0 012-2h2a2 2 0 012 2v2m-6 0h6a2 2 0 002-2v-5a2 2 0 00-2-2h-1V7a2 2 0 00-2-2h-2a2 2 0 00-2 2v1H7a2 2 0 00-2 2v5a2 2 0 002 2z"/></svg>
+                        <h3 class="text-xl font-bold mt-4">Project Management</h3>
+                        <p class="text-gray-600 mt-2">End-to-end project planning, execution, and delivery to ensure your tech initiatives succeed on time and within budget.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== PORTFOLIO SECTION =========== -->
+        <section id="portfolio" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900">Our Portfolio</h2>
+                    <p class="text-gray-600 mt-2">A glimpse into our recent work.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Portfolio Card -->
+                    <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
+                        <img src="ssp.tech.png" alt="Project 1" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900">Smart Support.tech</h3>
+                            <p class="text-gray-600 mt-2">AI-powered Omnichannel Customer Support Automation Platform.</p>
+                        </div>
+                    </div>
+                    <!-- Portfolio Card -->
+                    <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
+                        <img src="inventory.png" alt="Project 2" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900">Inventory Tracker Webapp</h3>
+                            <p class="text-gray-600 mt-2">A User-friendly web app for vendors and resellers to track business inventories.</p>
+                        </div>
+                    </div>
+                    <!-- Portfolio Card -->
+                    <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
+                        <img src="img2.png" alt="Project 3" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900">Sardauna Tech Hub</h3>
+                            <p class="text-gray-600 mt-2">Centralize free resources for different tech courses areas in Africa</p>
+                        </div>
+                    </div>
+                    <!-- Portfolio Card -->
+                    <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden">
+                        <img src="img1.png" alt="Project 4" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900">ISWCDN Website (Institute of Social Welfare and Community Development of Nigeria)</h3>
+                            <p class="text-gray-600 mt-2">Frontend Development For ISWWCDN Website.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== TEAM SECTION =========== -->
+        <section id="team" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900">Meet Our Team</h2>
+                    <p class="text-gray-600 mt-2">The minds behind our success.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Team Member -->
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <img src="ceo2.png" alt="Team Member 1" class="w-32 h-32 rounded-full mx-auto mb-4">
+                        <h3 class="text-xl font-bold text-gray-900">Muhammad Auwal Abubakar</h3>
+                        <p class="text-gray-600">CEO & Founder</p>
+                    </div>
+                     <!-- Team Member -->
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <img src="cto.png" alt="Team Member 2" class="w-32 h-32 rounded-full mx-auto mb-4">
+                        <h3 class="text-xl font-bold text-gray-900">Maryam Abubakar</h3>
+                        <p class="text-gray-600">Chief Technology Officer</p>
+                    </div>
+                     <!-- Team Member -->
+                     <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <img src="https://picsum.photos/seed/person3/400/400" alt="Team Member 3" class="w-32 h-32 rounded-full mx-auto mb-4">
+                        <h3 class="text-xl font-bold text-gray-900">Jibril Raji Qasim</h3>
+                        <p class="text-gray-600">Lead Developer</p>
+                    </div>
+                    <!-- Team Member -->
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <img src="hashim.png" alt="Team Member 4" class="w-32 h-32 rounded-full mx-auto mb-4">
+                        <h3 class="text-xl font-bold text-gray-900">Hashim Hassan Hashim</h3>
+                        <p class="text-gray-600">Frontend Developer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== TESTIMONIALS SECTION =========== -->
+        <section id="testimonials" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900">What Our Clients Say</h2>
+                    <p class="text-gray-600 mt-2">Real feedback from our satisfied partners.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Testimonial -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <p class="text-gray-600 italic">"Sardauna Tech Solutions transformed our Project into Testimonies. Their expertise and dedication are unmatched."</p>
+                        <div class="flex items-center mt-4">
+                            
+                            <div>
+                                <p class="font-bold text-gray-900">Elizabeth Markus</p>
+                                <p class="text-sm text-gray-600">CEO, Innovate Com Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <p class="text-gray-600 italic">"Working with Sardauna Tech was a game-changer for our mobile strategy. Highly recommended!"</p>
+                        <div class="flex items-center mt-4">
+                           
+                            <div>
+                                <p class="font-bold text-gray-900">Abubakar Musa</p>
+                                <p class="text-sm text-gray-600">Product Manager, TechCorp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== CONTACT SECTION =========== -->
+        <section id="contact" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900">Contact Us</h2>
+                    <p class="text-gray-600 mt-2">We'd love to hear from you.
+                    </p>
+                </div>
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/2 md:pr-12 mb-8 md:mb-0">
+                        <div class="flex flex-col items-center justify-center h-full">
+                            <a href="mailto:contact@sardaunatechsolutions.xyz" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg text-center block" target="_blank" rel="noopener">
+                                Send us a message via Email
+                            </a>
+                            <p class="mt-4 text-gray-500 text-sm text-center">Clicking the button will open your email app (e.g., Gmail) to send us a message or check the conatct lines there.</p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <div class="bg-white p-8 rounded-lg shadow-md">
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">Contact Information</h3>
+                            <p class="text-gray-600 mb-2"><strong>Email:</strong> contact@sardaunatechsolutions.xyz</p>
+                            <p class="text-gray-600 mb-2"><strong>Phone:</strong>07019672820,09060276333</p>
+                            <p class="text-gray-600 mb-2"><strong>WhatsApp:</strong> <a href="https://wa.me/2347019672820" class="text-indigo-600 hover:underline">+234 701 967 2820</a></p>
+                            <p class="text-gray-600"><strong>Address:</strong> Dutse Jigawa State.</p>
+                            <div class="mt-4 h-64 rounded-lg overflow-hidden">
+                                <iframe src="" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========== FOOTER =========== -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <a href="#" class="text-2xl font-bold">Sardauna Tech</a>
+                </div>
+                <div class="flex space-x-6 mb-4 md:mb-0">
+                    <a href="#home" class="hover:text-indigo-400">Home</a>
+                    <a href="#services" class="hover:text-indigo-400">Services</a>
+                    <a href="#portfolio" class="hover:text-indigo-400">Portfolio</a>
+                    <a href="#contact" class="hover:text-indigo-400">Contact</a>
+                </div>
+                <div class="flex space-x-4">
+                    <div class="flex flex-col items-center space-y-2 sm:flex-row sm:space-y-0 sm:space-x-4">
+                        <a href="https://www.linkedin.com/in/sardauna-tech-solutions-526660379" class="hover:text-indigo-400" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm15.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v4.72z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/share/16e5QWmZ7g/" class="hover:text-indigo-400" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0"/></svg>
+                        </a>
+                        <a href="https://x.com/Sardauna_techs?t=X1r9QXrmuYZAiiChO9tkwg&s=09" class="hover:text-indigo-400" target="_blank" rel="noopener" aria-label="Twitter">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 4.557a9.93 9.93 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 0 0-8.384 4.482C7.691 8.095 4.066 6.13 1.64 3.161c-.542.929-.856 2.01-.857 3.17 0 2.188 1.115 4.117 2.823 5.254a4.904 4.904 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 0 1-2.224.084c.627 1.956 2.444 3.377 4.6 3.417A9.867 9.867 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.209c9.058 0 14.009-7.513 14.009-14.009 0-.213-.005-.425-.014-.636A10.012 10.012 0 0 0 24 4.557z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/sardaunatech_solutions?igsh=a3Byc2hjbmpyYjg2" class="hover:text-indigo-400" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.241 1.308 3.608.058 1.266.069 1.646.069 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.241 1.246-3.608 1.308-1.266.058-1.646.069-4.85.069s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.241-1.308-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608C4.515 2.497 5.782 2.225 7.148 2.163 8.414 2.105 8.794 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.775.13 4.602.402 3.635 1.37c-.967.967-1.24 2.14-1.298 3.417C2.013 8.332 2 8.741 2 12c0 3.259.013 3.668.072 4.948.058 1.277.331 2.45 1.298 3.417.967.967 2.14 1.24 3.417 1.298C8.332 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.277-.058 2.45-.331 3.417-1.298.967-.967 1.24-2.14 1.298-3.417.059-1.28.072-1.689.072-4.948 0-3.259-.013-3.668-.072-4.948-.058-1.277-.331-2.45-1.298-3.417-.967-.967-2.14-1.24-3.417-1.298C15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-gray-400 mt-8 border-t border-gray-700 pt-4">
+                <p>&copy; 2025 Sardauna Tech Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========== SCROLL TO TOP BUTTON =========== -->
+    <button id="scroll-to-top" class="hidden fixed bottom-5 right-5 bg-indigo-600 hover:bg-indigo-700 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
+    </button>
+
+    <script>
+        // =========== STICKY HEADER ===========
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+        });
+
+        // =========== MOBILE MENU TOGGLE ===========
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // =========== CONTACT FORM VALIDATION ===========
+        const contactForm = document.getElementById('contact-form');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            if (!validateEmail(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+            alert('Form submitted successfully!');
+            contactForm.reset();
+        });
+
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(String(email).toLowerCase());
+        }
+
+        // =========== SCROLL TO TOP BUTTON ===========
+        const scrollToTopBtn = document.getElementById('scroll-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollToTopBtn.classList.remove('hidden');
+            } else {
+                scrollToTopBtn.classList.add('hidden');
+            }
+        });
+
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+    </script>
+</body>
+</html>
